@@ -44,6 +44,12 @@ app.get('/places', (req, res) => {
     places.mainPlace();
     res.send('Hello Place!');
 });
+
+app.get('/', (req, res) => {
+     
+    res.send('Hello Group!');
+});
+
 app.listen(PORT, () => 
     console.log(`Server listening on port: ${PORT}`)
 );
