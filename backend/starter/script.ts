@@ -4,13 +4,11 @@ const prisma = new PrismaClient()
 
 // A `main` function so that you can use async/await
 async function main() {
-  const allUsers = await prisma.comment.findMany()
-  // use `console.dir` to print nested objects
-  console.dir(allUsers, { depth: null })
+  // ... you will write your Prisma Client queries here
 }
 
 main()
-  .catch((e) => {
+  .catch(e => {
     throw e
   })
   .finally(async () => {
