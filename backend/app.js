@@ -22,7 +22,6 @@ async function main(x) {
 
 
 
-
 app.use(express.static('public'));
 
 app.get('/comments/:placeID', (req, res) => {
