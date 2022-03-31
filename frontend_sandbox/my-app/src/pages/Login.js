@@ -1,33 +1,32 @@
 import { Routes, Route, Link } from "react-router-dom";
 import React from "react";
 import Like from '../buttons/Like';
+import './from.css'
 
 function Login() {
   return (
     <>
-      <main>
-        <h2>Welcome to the Login!</h2>
-        <p>You can do this, I believe in you.</p>
-
-        <header className="App-header">
-        
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <Like></Like>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-      </main>
-      <nav>
-        <Link to="/about">About</Link>
-      </nav>
+      <form>
+                <h3>Sign In</h3>
+                <div className="form-group">
+                    <label>Email address</label>
+                    <input type="email" className="form-control" placeholder="Enter email" />
+                </div>
+                <div className="form-group">
+                    <label>Password</label>
+                    <input type="password" className="form-control" placeholder="Enter password" />
+                </div>
+                <div className="form-group">
+                    <div className="custom-control custom-checkbox">
+                        <input type="checkbox" className="custom-control-input" id="customCheck1" />
+                        <label className="custom-control-label" htmlFor="customCheck1">Remember me</label>
+                    </div>
+                </div>
+                <button type="submit" className="btn btn-primary btn-block">Submit</button>
+                <p className="forgot-password text-right">
+                    Forgot <a href="#">password?</a>
+                </p>
+            </form>
     </>
   );
 }
