@@ -16,8 +16,8 @@ function Carouselr() {
       
     />
     <Carousel.Caption>
-      <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      <h3>Vicotria Park</h3>
+      <p>Explore the beautiful environmental friendly Victoria Park!</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -28,8 +28,8 @@ function Carouselr() {
     />
 
     <Carousel.Caption>
-      <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <h3>Fabulous Flower Bed</h3>
+      <p>Enjoy the amazing colourful views of the annual spring flowers.</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -40,8 +40,8 @@ function Carouselr() {
     />
 
     <Carousel.Caption>
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      <h3>Waterloo Park Riverside</h3>
+      <p>Enjoy the beautiful riverside view with cold breezes and the beautiful wight of the Grand River beneath.</p>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
