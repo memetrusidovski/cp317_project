@@ -1,15 +1,15 @@
 {
-  "title": "Light, fast & responsive",
-  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+  "title": "Accurate, Reliable, and Trustworthy",
+  "text": "R8r is proud on it's contribution to the global and epecially canadian tourist industry, and is committed to provide honest, precise and most importantly accurate reviews and critques on tourist destinations.",
   "section": [
     {
-      "title": "Why Antd?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
+      "title": "Why R8r?",
+      "content": "R8r is tried and trusted by users aroudn the world our application has helped people make long lasting loving memories they cherish for life all thanks to our accurate recommendations.",
       "icon": "notes.svg"
     },
     {
-      "title": "Why styled-components?",
-      "content": "Styled Components gives you total control over your components.",
+      "title": "Proven and Tested?",
+      "content": "R8r has dedicated registered members who have been with R8r for years who c an vouch the authenticity of R8r at any given moment.",
       "icon": "notes.svg"
     }
   ]
