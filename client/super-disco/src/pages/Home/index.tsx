@@ -24,7 +24,7 @@ const Home = () => {
         title={IntroContent.title}
         content={IntroContent.text}
         button={IntroContent.button}
-        icon="developer.svg"
+        icon="https://polar-bastion-98856.herokuapp.com/waterloo1.jpg"
         id="intro"
       />
       <Carouselr/>
