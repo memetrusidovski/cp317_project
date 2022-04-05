@@ -1,0 +1,13 @@
+{
+  "title": "Helping you find new ways to have fun",
+  "text": "Our application is called R8r and will allow users to find different places to travel in Ontario. This makes it easier for tourists or anybody else to be able to find new places that they may not have known about.",
+  "button": [
+    {
+      "title": "Explore"
+    },
+    {
+      "title": "Learn more",
+      "color": "#fff"
+    }
+  ]
+}
