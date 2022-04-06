@@ -1,0 +1,34 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = "mysql://root:root@tcp://6.tcp.ngrok.io:13949/cp317"
+}
+
+model Comment {
+  idComment Int     @id @default(autoincrement())
+  title     String? @db.VarChar(45)
+  author    String? @db.VarChar(45)
+  comment   String? @db.VarChar(256)
+}
+
+model Images {
+  idImages  Int     @id @default(autoincrement())
+  placeID   Int?
+  image_url String? @db.VarChar(100)
+  Place     Place?  @relation(fields: [placeID], references: [idPlace], onDelete: NoAction, onUpdate: NoAction, map: "image_place")
+
+  @@index([placeID], map: "image_place_idx")
+}
+
+model Place {
+  idPlace     Int      @id @unique(map: "idPlace_UNIQUE") @default(autoincrement())
+  title       String?  @db.VarChar(100)
+  address     String?  @db.VarChar(150)
+  description String?  @db.VarChar(800)
+  like_count  Int?
+  images_fk   Int?
+  Images      Images[]
+}
